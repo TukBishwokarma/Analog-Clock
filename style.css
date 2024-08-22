@@ -1,0 +1,48 @@
+#clockConatiner{
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(analog\ watch.webp) no-repeat;
+    background-size: 100%;
+    position: relative;
+
+}
+#hour,#minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    
+}
+#hour{
+    width: 0.9%;
+    height: 10%;
+    top: 19%;
+    left: 40%;
+    opacity: 0.8;
+    background-color: rgb(22, 18, 18);
+}
+    
+
+
+
+#minute{
+    width: 0.7%;
+    height: 12%;
+    top: 17%;
+    left: 40%;
+    opacity: 0.8;
+    background-color: rgb(22, 18, 18);
+   
+}
+#second{
+
+  
+    width: 0.3%;
+    height: 14%;
+    top: 15%;
+    left: 40%;
+    opacity: 0.8;
+    background-color: red;
+   
+    }
